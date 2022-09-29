@@ -9,3 +9,13 @@ h1 {
 h1:hover {
     color:red;
     }
+h2 {
+    margin:auto;
+    text-align:center;
+    }
+p:hover {
+        background-color: yellow;
+        }
+img:hover {
+  filter: hue-rotate(100deg) drop-shadow(8px 0px 3px);
+}
