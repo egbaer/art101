@@ -19,3 +19,6 @@ p:hover {
 img:hover {
   filter: hue-rotate(100deg) drop-shadow(8px 0px 3px);
 }
+img {
+  border-image:url(images/olivia_icon_emote_neutral.png);
+}
