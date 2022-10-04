@@ -46,9 +46,9 @@ p {
   top: 0px;
   position: absolute;
   z-index: -3;
-  /*border-width: 100px;
+  border-width: 100px;
   border-style: solid;
-  border-image: url("img/smaller_lumps.png") 100 round;*/
+  border-image: url("img/smaller_lumps.png") 100 round;
 }
 
 #border_req {
