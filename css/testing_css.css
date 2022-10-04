@@ -46,8 +46,9 @@ p {
   top: 0px;
   position: absolute;
   z-index: -3;
-  border-width: 100px;
-  border-style: solid green;
+  border-left-width: 100px;
+  border-left-style: solid;
+  border-left-color: green;
   border-image: url("img/smaller_lumps.png") 100 round;
 }
 
