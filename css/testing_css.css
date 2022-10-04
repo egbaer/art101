@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2%;
+  margin-right:5%;
+  margin-left:5%;
+  margin-bottom:2%;
+  /*margin: 5%;*/
+  color: pink;
+}
+
+.right {
+    width: 50%;
+    margin-right: 0%;
+    margin-left: 50%;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+}
+
+.left {
+    width: 50%;
+    margin-right: 50%;
+    margin-left: 0%;
+    position: absolute;
+    left: 0px;
+    text-align: center;
+}
+
+p {
+  color: pink;
+  padding: 10%;
+}
+
+
+#split_color {
+  background-color: purple;
+  height: 100%;
+  width: 50%;
+  margin-right: 0%;
+  margin-left: 50%;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: -3;
+  /*border-width: 100px;
+  border-style: solid;
+  border-image: url("img/smaller_lumps.png") 100 round;*/
+}
+
+#border_req {
+  border-color: white;
+  border-width: medium;
+  border-left-style: dashed;
+  border-right-style: dashed;
+
+}

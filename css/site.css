@@ -22,3 +22,10 @@ img:hover {
 img {
   border-image:url(images/olivia_icon_emote_neutral.png);
 }
+
+#halfwaycolor{
+  background-color: red;
+  z-index: -999;
+  height: 50px;
+  width: 50%;
+}
