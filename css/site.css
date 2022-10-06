@@ -47,11 +47,15 @@ img {
   border-width: 20px;
   border-style: solid;
   border-color: green;
-  border-image: url("img/smaller_lumps.png") 10 round;
+  border-image-source: url("../img/blu_icon_emote_neutral.png");
+  border-image-repeat: repeat;
+  border-image-slice: 50;
+  border-image-width: 2;
+
 }
 
 .bg-img {
-  background-image: url("img/queenie_icon_emote_neutral.png");
+  background-image: url("../img/queenie_icon_emote_neutral.png");
   background-color: pink;
   margin:10px;
   padding: 10px;
