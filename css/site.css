@@ -1,5 +1,5 @@
 body {
-background-color: lightcyan;
+background-color: slategrey;
 }
 h1 {
     margin:auto;
@@ -13,11 +13,23 @@ h2 {
     margin:auto;
     text-align:center;
     }
+
+#callout {
+  background-color: lightslategray;
+  padding: 20px;
+  border: groove 5px darkslategrey;
+  margin: 10px;
+  border-radius: 20px;
+}
+p {
+  color: seashell;
+  font-weight: bold;
+}
 p:hover {
         background-color: yellow;
         }
 img:hover {
-  filter: hue-rotate(100deg) drop-shadow(8px 0px 3px);
+  filter: hue-rotate(170deg) drop-shadow(8px 0px 3px);
 }
 img {
   border-image:url(images/olivia_icon_emote_neutral.png);
@@ -28,4 +40,19 @@ img {
   z-index: -999;
   height: 50px;
   width: 50%;
+}
+
+.border-img {
+  margin: 10px;
+  border-width: 20px;
+  border-style: solid;
+  border-color: green;
+  border-image: url("img/smaller_lumps.png") 10 round;
+}
+
+.bg-img {
+  background-image: url("img/queenie_icon_emote_neutral.png");
+  background-color: pink;
+  margin:10px;
+  padding: 10px;
 }
