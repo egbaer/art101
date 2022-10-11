@@ -2,6 +2,23 @@
   width:15%;
   height:15%;
 }
+
+body {
+  text-align: center;
+  background-color: bisque;
+}
+
+p {
+  background-color: linen;
+}
+
+ul {
+  text-align: right;
+}
+
+h1 {
+  background-color: linen;
+}
 /*body {
 background-color: slategrey;
 }
