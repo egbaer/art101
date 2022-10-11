@@ -1,0 +1,23 @@
+body{
+  background-image: linear-gradient(#4E5F55, #F8F8E7);
+}
+
+#title {
+  background-color: #4E5F55;
+  text-align: center;
+  min-width: 100px;
+  min-height: 30px;
+  padding: 10px;
+  margin: 10px;
+  border: 10px #5A866D;
+  border-left-style:double;
+  border-right-style: groove;
+  border-bottom-style: groove;
+  border-top-style: double;
+
+}
+
+img {
+  width: 20%;
+  height:20%;
+}

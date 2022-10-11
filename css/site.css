@@ -1,4 +1,8 @@
-body {
+#ep {
+  width:15%;
+  height:15%;
+}
+/*body {
 background-color: slategrey;
 }
 h1 {
@@ -59,4 +63,4 @@ img {
   background-color: pink;
   margin:10px;
   padding: 10px;
-}
+}*/
