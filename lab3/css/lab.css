@@ -1,5 +1,7 @@
 body{
-  background-image: linear-gradient(#4E5F55, #F8F8E7);
+  background-image: linear-gradient(#F8F8E7, #4E5F55);
+  text-shadow: 2px 2px #ff0000;
+  text-align: center;
 }
 
 #title {
