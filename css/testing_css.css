@@ -39,13 +39,13 @@ p {
 
 #split_color {
   background-color: purple;
-  height: 225%;
+  height: 100%;
   width: 50%;
   margin-right: 0%;
   margin-left: 50%;
   right: 0px;
   top: 0px;
-  position: absolute;
+  position: fixed;
   /*float:right;*/
   z-index: -3;
   border-left-width: 50px;

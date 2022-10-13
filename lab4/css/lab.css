@@ -1,0 +1,43 @@
+  body {
+    background-color: floralwhite;
+  }
+
+  .maincat {
+    text-align: center;
+  }
+
+  .maincat h1 {
+    font-size: 150%;
+    color: green;
+  }
+
+  .maincat p {
+    margin: 2%;
+    font-size: 110%;
+    color: purple;
+  }
+
+  .codelist {
+    margin-left: 25%;
+    text-align: left;
+    color: red;
+  }
+
+  .tasklist {
+    text-align: left;
+    color: blue;
+  }
+
+  .tasklist h2 {
+    text-align: center;
+  }
+
+  .tasklist ol {
+    margin-left: 35%;
+  }
+
+  #jscapimg {
+    margin-left: 10%;
+    width: 50%;
+    height: 50%;
+  }
