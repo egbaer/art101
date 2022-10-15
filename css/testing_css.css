@@ -52,8 +52,8 @@ p {
   border-left-color: green;
   border-image: url("../img/lumpcube3.png") 120 round;
   overflow: hidden;
-  /*animation: flow-down 3s ease-in-out backwards infinite;*/
-  animation: flow-down 2s linear forwards infinite;
+  animation: flow-down 3s ease-in-out backwards infinite;
+  /*animation: flow-down 2s linear forwards infinite;*/
 }
 
 @keyframes flow-down {
