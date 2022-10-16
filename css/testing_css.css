@@ -33,14 +33,65 @@ h1 {
 
 p {
   color: pink;
-  padding: 10%;
 }
 
+.pintrobox {
+  text-align: center;
+  /*padding: 50px;*/
+  margin-top:30px;
+  margin-bottom:30px;
+  margin-left: 10%;
+  /*background-color: red;*/
+  height: 100px;
+  width: 80%;
+  overflow-y: auto;
+}
+
+.left .pintrobox {
+  transform: scaleX(-1);
+  /*background-color: black;*/
+}
+
+.left .pintrobox::-webkit-scrollbar {
+  width:20px;
+}
+
+.left .pintrobox::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: purple;
+}
+
+.left .pintrobox::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: pink;
+}
+
+.right .pintrobox {
+  /*background-color: purple;*/
+}
+
+.right .pintrobox::-webkit-scrollbar {
+  width: 20px;
+}
+
+.right .pintrobox::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background: black;
+}
+
+.right .pintrobox::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: pink;
+}
+
+.left .pintrobox .pintro {
+  transform: scaleX(-1);
+}
 
 #split_color {
   background-color: purple;
   height: 130%;
-  width: 50%;
+  width: 48.5%;
   margin-right: 0%;
   margin-left: 50%;
   right: 0px;
@@ -106,7 +157,7 @@ p {
   animation: shake 500ms ease-in-out backwards;
 }
 
-.moveme {
+/*.moveme {
   background-color: pink;
   width: 50px;
   height: 50px;
@@ -119,6 +170,6 @@ p {
 
 .moveme:hover {
   background-color: blue;
-  transform: translateX(1580%);
+  transform: translateX(1580%);*/
   /*transform: translateY(-10%);*/
-}
+/*}*/
