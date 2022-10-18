@@ -130,7 +130,7 @@ p {
   border-style: solid;
   border-color: green;
   border-image: url("../img/framecube1.png") 30 round;
-  filter: hue-rotate(190deg);
+  filter: hue-rotate(120deg);
   transition: 0.5s;
 }
 
