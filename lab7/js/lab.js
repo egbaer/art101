@@ -1,5 +1,3 @@
-alert("die, lol");
-
 function nameSorter(){
   var userName = window.prompt("Enter your name mortal fool.");
   console.log(userName);
@@ -8,7 +6,7 @@ function nameSorter(){
   console.log(nameArray);
   var sortedArray = nameArray.sort();
   console.log(sortedArray);
-  var sortedName = sortedArray.join("idiot");
+  var sortedName = sortedArray.join("BunsenBurner");
   console.log(sortedName);
   return(sortedName);
   //return(sortedArray);
