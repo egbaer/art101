@@ -1,0 +1,9 @@
+.content_box {
+  width:60%;
+}
+
+.content_box img {
+  width:100%;
+  min-width: 500px;
+  max-width: 1500px;
+}
