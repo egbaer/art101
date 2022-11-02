@@ -1,5 +1,17 @@
+.body {
+}
+
+.content_big_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .content_box {
   width:60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content_box img {
