@@ -7,6 +7,10 @@
     <script src="js/lab.js" type="text/javascript" defer></script>
   </head>
   <body>
+    <div id="remove-box">
+      <div id="top-box"><h3 class="box-heading">Click me to see the content</h3></div>
+      <div id="bottom-box"><h3 class="box-heading">Click me to see the content</h3></div>
+    </div>
     <div>
       <h2>Challenge</h2>
       <p>The goal of this lab was to get us to begin playing around with giving HTML elements ways to be interacted with through JS. Basically, make the user be able to change the webpage through interactions carried out through JS.</p>
@@ -25,7 +29,25 @@
       <button id="my-button">Submit</button>
       <div id="output"><p>This paragraph will be destroyed when you click the button above.</p></div>
       <a href="js/lab.js" target="_blank">Click here to see our JavaScript. WoooOOOooo</a>
+      <p>Below is a different div that uses the anagram function on Wes Modes' page.</p>
+      <label>
+        Enter your name to be anagram'd: <input type="text" id="user-name-ana">
+      </label>
+      <button id="my-button-ana">Submission</button>
+      <div id="output-ana"><p>This sentence will be eliminated when you click the button above.</p></div>
+      <div id="task-two">
+        <label>
+          Enter a second name to be sorted: <input type="text" id="user-name-sec">
+        </label>
+        <label>
+          Enter third name to be sorted: <input type="text" id="user-name-thi">
+        </label>
+        <label>
+          Enter a fourth name to be sorted: <input type="text" id="user-name-for">
+        </label>
+        <button id="task-two-button">Click for multiple submissions</button>
+        <div id="output-two"><p>Stuff in here will be replaced by multiple submissions!</p></div>
+      </div>
     </div>
-
   </body>
 </html>
