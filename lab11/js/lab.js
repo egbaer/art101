@@ -23,3 +23,11 @@ $('#button-prob').click(function(){
 $('#button-res').click(function(){
   $('#results').toggleClass("special");
 });
+
+$('#test').click(function(){
+  $('#test').css({"background-color":"red"});
+})
+
+$('#test').click(function(){
+  $('#test').css({"color":"blue"});
+})
