@@ -115,10 +115,17 @@ buttonElTwo.addEventListener("click", function(){
   //Gets references the html elements with the ids of top and bottom box and sets them to a variable
   topBoxEl = document.getElementById("top-box");
   bottomBoxEl = document.getElementById("bottom-box");
+  removeBoxEl = document.getElementById("remove-box");
   //adds an event listener to both of said elements. When they are clicked they will disappear
   topBoxEl.addEventListener('click', function(){
     topBoxEl.style.display="none";
   });
   bottomBoxEl.addEventListener('click', function(){
     bottomBoxEl.style.display="none";
+  });
+
+  removeBoxEl.addEventListener('click', function(){
+    if(bottomBoxEl.style.display=="none" && topBoxEl.style.display=="none"){
+      removeBoxEl.style.display="none";
+    };
   });
