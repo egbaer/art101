@@ -6,6 +6,7 @@
 body {
   background-color: #87be7e;
   text-align: center;
+  color:aliceblue;
 }
 
 span {
@@ -13,12 +14,20 @@ span {
   font-family: cursive;
 }
 
+h1 {
+  padding-top: 2%;
+}
+
+#firsth2 {
+  padding-top: 1%;
+}
+
 label, input, button {
   display: block;
   margin: 10px auto;
 }
 
-h1, h2{
+h2{
   padding-top: 5px;
   padding-bottom: 10px;
 }
