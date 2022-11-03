@@ -1,0 +1,44 @@
+.special {
+  background-color: green;
+  width: 500px;
+  height: 100px;
+  color:lawngreen;
+  text-align: right;
+  padding: 0;
+  margin:0;
+  border-left: 30px ridge yellowgreen;
+  /* border-left-color:linear-gradient(to bottom, rgb(154,205,3), rgb(253,187,45)); */
+  /* border-left-color: linear-gradient(#e66465, #9198e5); */
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 10px;
+  /* border-right: 1px solid darkgreen; */
+  /* border-top: 1px solid darkgreen; */
+}
+
+div.special > h2 {
+  padding: 1% 2%;
+  font-family: fantasy;
+  font-weight: normal;
+}
+
+div.special > p {
+  padding: 0 2%;
+  font-family: serif;
+}
+
+div.special > button {
+  display: inline;
+  color: lawngreen;
+  background-color: green;
+  border-top-color:green;
+  border-bottom-color: darkgreen;
+  border-left-color:darkgreen;
+  border-right-color:darkgreen;
+  border-style: solid;
+  font-family: monospace;
+}
+
+a{
+  /* display: block; */
+}
