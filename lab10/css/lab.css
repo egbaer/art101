@@ -8,6 +8,11 @@ body {
   text-align: center;
 }
 
+span {
+  font-style: italic;
+  font-family: cursive;
+}
+
 label, input, button {
   display: block;
   margin: 10px auto;
