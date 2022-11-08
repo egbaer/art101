@@ -1,0 +1,17 @@
+div {
+  width: 30%;
+  height: 30%;
+  background-color: chartreuse;
+}
+
+.special {
+  background-color: purple;
+}
+
+.specialler{
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/695f1960-d04c-4f5a-943d-2925b0aa10a8/dcpyplv-b58e8558-3ab2-40ef-a97f-9b0510635a37.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5NWYxOTYwLWQwNGMtNGY1YS05NDNkLTI5MjViMGFhMTBhOFwvZGNweXBsdi1iNThlODU1OC0zYWIyLTQwZWYtYTk3Zi05YjA1MTA2MzVhMzcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lUUFaPE3CZ9Uen06Yyv93C6_c4ZeMenqxD12V05Tse8");
+}
+
+.superduperspecial {
+  background-color: darkslategrey;
+}
