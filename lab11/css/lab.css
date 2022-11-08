@@ -3,7 +3,7 @@ body{
   flex-direction: row;
   align-items: center;
   height:100vh;
-  background: radial-gradient(circle, #b5fd2d 0%, seagreen 30%, #338399 100%);
+  background: radial-gradient(circle, #b5fd2d 0%, #fff497 29%, seagreen 30%, rgba(132,217,216,0.8) 35%, #23a98b 40%, #338399 100%);
 }
 
 .bigBox {
