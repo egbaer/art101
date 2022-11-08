@@ -4,10 +4,18 @@ body{
   align-items: center;
   height:100vh;
   background: radial-gradient(circle, #b5fd2d 0%, #fff497 29%, seagreen 30%, rgba(132,217,216,0.8) 35%, #23a98b 40%, #338399 100%);
+  color: black;
+  text-shadow: 0px 0px 3px yellowgreen;
+  font-weight: bold;
 }
 
 .bigBox {
-  background: linear-gradient(180deg, rgba(53,218,59,1) 0%, rgba(9,151,61,1) 30%, rgba(9,121,81,1) 100%);
+  background: repeating-linear-gradient( 125deg,
+  #cbe35f,
+  #89a315 20px,
+  #add142 20px,
+  #add142 20px);
+  /* background: linear-gradient(180deg, rgba(53,218,59,1) 0%, rgba(9,151,61,1) 30%, rgba(9,121,81,1) 100%); */
   border-radius: 50px;
   border-style: solid;
   border-color: yellowgreen;
@@ -21,6 +29,7 @@ body{
   align-items: baseline;
   text-align: center;
   justify-content: space-between;
+
 }
 
 .sectBox{
@@ -30,7 +39,10 @@ body{
   flex-direction: column;
   align-items:center;
   margin: 10px;
+
+
 }
+
 
 .special {
   background-color: green;
