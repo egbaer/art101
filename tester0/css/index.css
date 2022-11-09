@@ -1,0 +1,10 @@
+.backgrounImageBox{
+  width: 500px;
+  border-style: solid;
+  border-width:thick;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size:  auto;
+  height:700px;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/695f1960-d04c-4f5a-943d-2925b0aa10a8/dfdj5pv-22f72b6d-1269-47d1-815c-1235599fe3ea.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5NWYxOTYwLWQwNGMtNGY1YS05NDNkLTI5MjViMGFhMTBhOFwvZGZkajVwdi0yMmY3MmI2ZC0xMjY5LTQ3ZDEtODE1Yy0xMjM1NTk5ZmUzZWEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RuOwoY-HbDnBA3jfp3y-Va4tNZ_ON0kUPJnTNVHu8zQ);
+}
