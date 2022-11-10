@@ -1,6 +1,19 @@
 .results {
   background-color: green;
 }
+
+.betterResults {
+  background-color: lawngreen;
+}
+
+.bestResults {
+  background-color: springgreen;
+}
+
+.results, .betterResults, .bestResults{
+  font-variant: small-caps;
+}
+
 body {
   background-color: seagreen;
 }

@@ -39,11 +39,42 @@ function betterSortingHat(enterName) {
   return(houseArray[mod]);
 };
 
+
 //This adds a click event to the button. It gets the value of the input field and runs it through the better sorting hat function. It then creates a paragraph with a class of results and appends it to the output div. The paragraph contains the house results.
 $('#betterButton').click(function(){
   var name = $('#betterInput').val();
   var house = betterSortingHat(name);
-  var newPara = $('<p class="results"></p>');
+  var newPara = $('<p class="betterResults"></p>');
   newPara.html("Welcome to your better hoose! "+house);
   $('#betterOutput').append(newPara);
+});
+
+
+
+
+//Stores three of the user inputs and results
+var betterResultsArray = [];
+
+//Adds click event to button to display results of the user's name being sorted
+$('#bestButton').click(function(){
+  var name = $('#bestInput').val();
+  if (name == ""){
+    name = 'nameless fool';
+  };
+  var house = betterSortingHat(name);
+
+  if ($('.bestResults').length < 3){
+    var newPara = $('<p class="bestResults"></p>');
+    $('#bestOutput').append(newPara);
+  } else{
+    betterResultsArray.pop();
+  }
+
+  betterResultsArray.unshift('Welcome to your best hoose ' +name+'! You are in: ' + house+"!");
+
+  $('.bestResults').map(function(element){
+    this.innerHTML=(betterResultsArray[element]);
+  });
+
+  $('#bestInput').val('');
 });
