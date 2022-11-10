@@ -17,3 +17,13 @@
 body {
   background-color: seagreen;
 }
+
+input, button {
+  /* display: block; */
+}
+
+#resultsDiv {
+  background-color: linen;
+  display: flex;
+  flex-direction: column;
+}
