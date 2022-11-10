@@ -52,29 +52,35 @@ $('#betterButton').click(function(){
 
 
 
-//Stores three of the user inputs and results
+//Stores a number of user results
 var betterResultsArray = [];
 
-//Adds click event to button to display results of the user's name being sorted
+//Adds click event to button to display results of the user's name being sorted. It keeps up to three of the most recent user inputs. It also clears the input field after its input is used
 $('#bestButton').click(function(){
+  //Gets user input and stores it in a var
   var name = $('#bestInput').val();
+  //Checks if the user was too lazy to enter something for their name and shames them
   if (name == ""){
     name = 'nameless fool';
   };
+  //Stores the results of calling the betterSortingHat function on the name variable
   var house = betterSortingHat(name);
 
-  if ($('.bestResults').length < 3){
+  //If there are less than three paragraphs on the screen with the class of bestResults, it appends a new paragraph with that class to the bestOutput div
+  if ($('p.bestResults').length < 3){
     var newPara = $('<p class="bestResults"></p>');
     $('#bestOutput').append(newPara);
-  } else{
+  }
+  //If there are already three ps with the bestResults class, it removes the last element from the betterResultsArray. This is the oldest user input/result, so it is removed to make room for the newest user input.
+  else{
     betterResultsArray.pop();
   }
-
+  //Adds the newest user input/result as the first element in the bestResults array, includes the user's name as well.
   betterResultsArray.unshift('Welcome to your best hoose ' +name+'! You are in: ' + house+"!");
-
-  $('.bestResults').map(function(element){
+  //Changes the innerHTML of each paragraph with the class of bestResults to its corresponding element in betterResultsArray. element serves as the index here.
+  $('p.bestResults').map(function(element){
     this.innerHTML=(betterResultsArray[element]);
   });
-
+  //Clears the input field
   $('#bestInput').val('');
 });
