@@ -16,6 +16,8 @@
 
 body {
   background-color: seagreen;
+  font-family: "Bodoni MT";
+  font-weight: bold;
 }
 
 input, button {
@@ -32,16 +34,20 @@ input {
   background-image: url(../img/small_stone_tile.png);
   display: flex;
   flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  color: #d5ae9c;
 }
 
 .inputContainerWrapper{
   display: flex;
-  background-color: rgba(252,176,69,0.5);
-  box-shadow: 1.2vw 1.2vw red, -1.2vw -1.2vw orange;
+  background-color: rgba(252,176,69,0.7);
+  box-shadow: 1.2vw 1.2vw 10vw 1vw red, -1.2vw -1.2vw 10vw 1vw orange, 0vw 0vw 10vw 1vw rgba(253,242,29,1);
   border-radius: 1.6rem;
   flex-direction: row;
   align-items:baseline;
   padding: 1vw;
+  color: #5d2911;
 }
 
 .inputContainer {
@@ -68,4 +74,31 @@ input {
 
 .inputContainer:last-of-type {
   border-right: none;
+}
+
+.initialTextResultsDiv {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-bottom: 0vh;
+  margin-top: 2vh;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+  background-color: linen;
+  background: linear-gradient(180deg, rgba(125,74,23,1) 0%, rgba(199,121,66,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+#linkP {
+  margin-top: 0vh;
+  margin-bottom: 2vh;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: linen;
+  background: linear-gradient(0deg, rgba(125,74,23,1) 0%, rgba(199,121,66,1) 50%, rgba(170,100,66,1) 70%, rgba(41,20,9,1) 100%);
+  padding: 1rem;
+}
+
+.fireplaceBlack {
+  background-color: black;
+  padding: 4vh 4vw;
 }
