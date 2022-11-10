@@ -36,13 +36,13 @@ input {
   flex-direction: column;
   text-align: center;
   justify-content: space-around;
-  color: #d5ae9c;
+  color: #291409;
 }
 
 .inputContainerWrapper{
   display: flex;
   background-color: rgba(252,176,69,0.7);
-  box-shadow: 1.2vw 1.2vw 10vw 1vw red, -1.2vw -1.2vw 10vw 1vw orange, 0vw 0vw 10vw 1vw rgba(253,242,29,1);
+  box-shadow: 1.2vw 1.2vw 10vw 1vw rgba(255,0,0,0.8), -1.2vw -1.2vw 10vw 1vw rgba(255,164,0,0.7), 0vw 0vw 10vw 1vw rgba(253,242,29,0.8);
   border-radius: 1.6rem;
   flex-direction: row;
   align-items:baseline;
