@@ -28,8 +28,45 @@ input {
   margin: auto;
 }
 
+div.stack > h2{
+  color:#a2afd5;
+}
+
+div.stack > p{
+  background-color:#a2afd5;
+}
+
+.stack{
+  margin: auto;
+  text-align: center;
+  background-image: url(../img/small_stone_tile.png);
+  padding: 2vh 2vw;
+  border-left-style:solid;
+  border-left-color:#282b34;
+  border-left-width: 0.3rem;
+  border-right-style:solid;
+  border-right-color:#282b34;
+  border-right-width: 0.3rem;
+  color:#16234a;
+  font-size: 20px;
+}
+
+.stackTop{
+  margin-top:-1vh;
+  width:30vw;
+}
+
+.stackBottom{
+  width:60vw;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
+
 #resultsDiv {
-  padding: 1vw;
+  padding: 1vh 3vw;
+  border-style:solid;
+  border-color:#282b34;
+  border-width: 0.3rem;
   background-color: linen;
   background-image: url(../img/small_stone_tile.png);
   display: flex;
