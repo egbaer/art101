@@ -1,32 +1,33 @@
 
 
 .flex-container{
-  display:flex;
-  flex-direction:row;
+  /* display:flex;
+  flex-direction:row; */
   background-color: purple;
-  justify-content:space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: center;
-  /* justify-content: space-around;
-  align-items: center; */
-  /* flex-wrap: wrap;
-  align-content: center; */
-  /* height: 800px; */
-  /* flex-direction:row;
+  display:flex;
+  flex-direction: row;
   justify-content: space-around;
-  align-items: center; */
-  /* flex-wrap: wrap;
-  align-content: space-around; */
+  align-items: center;
+  /* flex-wrap:wrap;
+  align-content: center; */
+}
+  /* justify-content:space-around; */
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+  /* justify-content: space-around;
 }
 
 .flex-child {
   /* border-style: dashed; */
-  border-bottom-style: ridge;
+  /* border-bottom-style: ridge;
   border-right-style: groove;
   border-top-style: dashed;
-    border-top-left-radius: 25px;
+  border-top-left-radius: 25px; */
   /* border-radius: 50px; */
+
+.flex-child{
+  border-style: solid;
   border-width: 5px;
   border-color:black;
   margin: 10px;
@@ -36,7 +37,14 @@
 }
 
 .flex-child-1{
-  flex-shrink: 0;
+  flex-shrink:0;
+  /* flex-shrink: 0; */
+  border-width:medium;
+  border-radius: 20px;
+  border-left-style:dashed;
+  border-left-width:thick;
+  border-left-color: chartreuse;
+  /* border-style: dashed; */
   width:500px;
   min-height: 500px;
   background-color: red;
@@ -44,12 +52,17 @@
 
 .flex-child-2{
   flex-grow: 1;
+  border-style: dotted;
+  border-width:medium;
   min-height: 250px;
   background-color: green;
 }
 
 .flex-child-3{
+  align-self:baseline;
+  border-width:medium;
+  border-style: inset;
   min-height: 100px;
   background-color: blue;
-  align-self:baseline;
+  /* align-self:baseline; */
 }
