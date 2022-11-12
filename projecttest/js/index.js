@@ -15,18 +15,21 @@ firebase.initializeApp(firebaseConfig);
 //reference your database
 var fieldInputsDB = firebase.database().ref('fieldInputs');
 
+$('#submitInputButton').click(function(){
+  var firstString = document.getElementById('stringField').value;
+  var otherString = document.getElementById('otherStringField').value;
+  console.log('Here is the first user input: '+firstString+" Here is the second user input: " + otherString);
 
+  saveInput(firstString, otherString);
+  console.log("hopefully sent?");
+});
 
-function getElementVal(id){
-  return document.getElementById(id).value;
+const saveInput = (firstString, otherString) => {
+  var newUserInputs = fieldInputsDB.push();
+
+  newUserInputs.set({
+    //The key controls what is the key in the database
+    'firstString' : firstString,
+    'otherString' : otherString
+  });
 };
-console.log('here');
-function submitForm(){
-
-  var stringFieldFirst = getElementVal('stringField');
-  var otherStringFieldSecond = getElementVal('otherStringField');
-
-  console.log(stringFieldFirst, otherStringFieldSecond);
-};
-
-$('#submitInputButton').click(submitForm());
