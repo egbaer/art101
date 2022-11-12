@@ -1,0 +1,95 @@
+#output, #outputBetter{
+  max-height: 60vh;
+  max-width: 81vw;
+  min-width: 81vw;
+  background-color: #a31f7b;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: left;
+  padding: 1vw;
+};
+
+.resultLine {
+  text-align: left !important;
+  background-color: purple;
+  width: 150px;
+  padding-left: 1vw;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-color: blue;
+  border-right-color: blue;
+  border-left-width: 0.5rem;
+  border-right-style: 0.5rem;
+  /* height: 18px; */
+}
+
+.notResultsDiv, .resultsDiv{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notResultsDiv{
+  color:white;
+}
+
+.resultsDiv{
+  background: radial-gradient(circle at bottom, rgba(252,70,107,1) 0%, rgba(63,94,251,1) 100%);
+  position: bottom;
+  border-radius: 1000px;
+  border-style:solid;
+  border-width: 4px;
+  border-color:#6430be;
+}
+
+.multipleInputDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* label, input {
+  display: block;
+} */
+
+body{
+  cursor:wait;
+  background: linear-gradient(185deg, rgba(16,16,92,1) 0%, rgba(0,0,0,1) 37%, rgba(83,39,106,1) 100%);
+}
+
+button{
+  padding: 1vh 1vw;
+  margin: 2vh 1vw;
+  /* transition-delay: 1s;
+  transition: rotate(360deg) 2s; */
+  transition: 1s ease-in-out;
+}
+button:hover{
+  background-color: pink;
+  transform: rotate(360deg) scale(3);
+}
+
+input {
+  margin: 0.6vh 1vw;
+  transition: 1s ease-in-out;
+}
+
+input:hover{
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+h2 {
+  font-family: Arial;
+  font-stretch: extra-expanded;
+}
+
+p{
+    font-stretch: expanded;
+}
