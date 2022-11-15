@@ -69,7 +69,8 @@ $("#fizzButtonBetter").click(function(){
   //Goes through all of the input fields with the class inputBetter.
   for (var i = 0; i <= 8; i++){
     //creates a variable called currentVal that stores the user input of the current index field.
-    currentVal = document.getElementsByClassName('inputBetter')[i].value;
+    // currentVal = document.getElementsByClassName('inputBetter')[i].value;
+    currentVal = $('.inputBetter').eq(i).val();
     //Checks if the new variable doesn't have anything in it (the user didn't fill out a field)
     if (! currentVal){
       //If the user didn't fill out something, the console reprimands the user and alerts them to fill out the form completely. It then returns so that no incomplete calculations/functions occur.
@@ -79,7 +80,8 @@ $("#fizzButtonBetter").click(function(){
       return;
     };
     //If the user did input something, the current index of input field has its id and value stored as a key value pair in the map.
-    newSelectors.set(document.getElementsByClassName('inputBetter')[i].id,currentVal);
+    // newSelectors.set(document.getElementsByClassName('inputBetter')[i].id,currentVal);
+    newSelectors.set($('.inputBetter').eq(i).attr('id'),currentVal);
   }
   //The button runs the fizzBuzzBetter function and passes the completed newSelectors map to it.
   fizzBuzzBetter(newSelectors);
