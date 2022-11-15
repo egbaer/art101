@@ -8,9 +8,11 @@
   width: 300px;
   height: 100px;
   background-color: black;
+  flex-shrink: 0;
 }
 
 .message {
+  flex-shrink:0;
   min-width: 200px;
   height: 70px;
   background-color: blue;

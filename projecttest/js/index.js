@@ -26,7 +26,6 @@ $('#submitInputButton').click(function(){
 
 const saveInput = (firstString, otherString) => {
   var newUserInputs = fieldInputsDB.push();
-
   newUserInputs.set({
     //The key controls what is the key in the database
     'firstString' : firstString,
