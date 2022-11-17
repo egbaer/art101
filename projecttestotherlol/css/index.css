@@ -1,0 +1,24 @@
+.planebox{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.plane{
+  background-image: url(../img/ufo.png);
+  width: 300px;
+  height: 100px;
+  background-color: black;
+  flex-shrink: 0;
+}
+
+.message {
+  overflow-x: scroll;
+  flex-shrink:0;
+  min-width: 200px;
+  height: 70px;
+  background-color: blue;
+  border-color: purple;
+  border-style: solid;
+  border-width: 15px;
+}

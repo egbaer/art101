@@ -1,68 +1,39 @@
-
-
-.flex-container{
-  /* display:flex;
-  flex-direction:row; */
-  background-color: purple;
-  display:flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  /* flex-wrap:wrap;
-  align-content: center; */
+body{
+  background-color: black;
 }
-  /* justify-content:space-around; */
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
-  /* align-content: center; */
-  /* justify-content: space-around;
+.column{
+  position: fixed;
+  left:0;
+  bottom:0;
+  top:55px;
+  width:72px;
+  z-index: 200;
+  padding-top: 20px;
 }
-
-.flex-child {
-  /* border-style: dashed; */
-  /* border-bottom-style: ridge;
-  border-right-style: groove;
-  border-top-style: dashed;
-  border-top-left-radius: 25px; */
-  /* border-radius: 50px; */
-
-.flex-child{
-  border-style: solid;
-  border-width: 5px;
-  border-color:black;
-  margin: 10px;
-  width: 200px;
-  color: white;
-  font-size: 20px;
+.about,
+.skills {
+font-size:72px;
+width: 10em;
+text-align: left;
+border:none;
+background-color: black;
+color:red;
 }
 
-.flex-child-1{
-  flex-shrink:0;
-  /* flex-shrink: 0; */
-  border-width:medium;
-  border-radius: 20px;
-  border-left-style:dashed;
-  border-left-width:thick;
-  border-left-color: chartreuse;
-  /* border-style: dashed; */
-  width:500px;
-  min-height: 500px;
-  background-color: red;
+.about:hover span {
+display: none;
 }
 
-.flex-child-2{
-  flex-grow: 1;
-  border-style: dotted;
-  border-width:medium;
-  min-height: 250px;
-  background-color: green;
+.about:hover:after {
+transition-delay: 3s;
+content: "ABOUT";
+
 }
 
-.flex-child-3{
-  align-self:baseline;
-  border-width:medium;
-  border-style: inset;
-  min-height: 100px;
-  background-color: blue;
-  /* align-self:baseline; */
+.skills:hover span {
+display: none
+}
+
+.skills:hover:after {
+content: "SKILLS"
 }

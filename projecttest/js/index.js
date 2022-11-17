@@ -16,8 +16,10 @@ firebase.initializeApp(firebaseConfig);
 var fieldInputsDB = firebase.database().ref('fieldInputs');
 
 $('#submitInputButton').click(function(){
-  var firstString = document.getElementById('stringField').value;
-  var otherString = document.getElementById('otherStringField').value;
+  // var firstString = document.getElementById('stringField').value;
+  var firstString = $('#stringField').val();
+  // var otherString = document.getElementById('otherStringField').value;
+  var otherString = $('#otherStringField').val();
   console.log('Here is the first user input: '+firstString+" Here is the second user input: " + otherString);
 
   saveInput(firstString, otherString);
