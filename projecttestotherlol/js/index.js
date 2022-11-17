@@ -41,9 +41,19 @@ $('#submitInputButton').click(function(){
     coolInputArray.push(coolStr.otherString);
   });
   console.log("I am out of here");
+
+  setTimeout(addText,200);
 });
 
+function addText(){
+  for (var i = 0; i < $('.message').length; i++){
+    console.log("in for loop")
+    $('.message').eq(i).html("<p>" + coolInputArray[Math.floor(Math.random() * (coolInputArray.length - 1))] + "</p>");
+  };
+};
+
 const saveInput = (firstString, otherString) => {
+  firebase.database().ref("strInput/answer1").set(firstString);
   var newUserInputs = inputRef.push();
   newUserInputs.set({
     //The key controls what is the key in the database
