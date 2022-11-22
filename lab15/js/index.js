@@ -28,8 +28,8 @@ $('#otherActivate').click(function(){
       success: function(data){
          console.log(data);
          $('#otherOutput').load("https://www.chickensmoothie.com/ div#welcome")
-         $('#otherOutput').load("https://www.chickensmoothie.com/ li.reqjs");
-         $('#otherOutput').load("https://www.chickensmoothie.com/ div#newslist")
+         $('#othererOutput').load("https://www.chickensmoothie.com/ li.reqjs");
+         $('#otherestOutput').load("https://www.chickensmoothie.com/ div#newslist")
          
       },
       error: function (jqXHR, textStatus, errorThrown){
