@@ -60,10 +60,13 @@ function getAndDisplayData(comicNum){
          $('#betterOutput').append('<h3>' +betterComicObj.title+ '</h3>');
          //Adds the comic itself (img) through an img tag and gives it is corresponding alt text
          $('#betterOutput').append('<img src='+betterComicObj.img+' alt='+betterComicObj.alt+'\>');
+         //Adds a div to contain the buttons
+         //Keeps them always on one line
+         $('#betterOutput').append('<div id="buttonBox"></div>');
          //Adds a button with the text "previous"
-         $('#betterOutput').append('<button id ="prevButton">Previous</button>');
+         $('#buttonBox').append('<button id ="prevButton">Previous</button>');
          //Adds a button with the text "next"
-         $('#betterOutput').append('<button id="nextButton">Next</button>');
+         $('#buttonBox').append('<button id="nextButton">Next</button>');
          //Adds a click event to the previous button.
          //When it is clicked, it calls the getAndDisplayData function and passes it the current
          //comic's number minus one
